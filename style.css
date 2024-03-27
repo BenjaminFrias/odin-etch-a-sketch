@@ -1,0 +1,16 @@
+.container {
+    width: 1000px;
+    height: 90vh;
+    margin: 0 10px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.squares {
+    flex-basis: calc(100% / 16);
+    margin: 0;
+    padding: 0;
+    background-color: rgb(175, 175, 175);
+}
